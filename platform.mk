@@ -100,16 +100,12 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
 	libbthost_if
-
 # Camera
 PRODUCT_PACKAGES += \
-	android.frameworks.displayservice@1.0_32 \
-	android.hardware.camera.provider@2.4-impl:32 \
-	android.hardware.camera.provider@2.4-service \
-	camera.device@3.2-impl \
-	libxml2 \
-	vendor.qti.hardware.camera.device@1.0 \
-	vendor.qti.hardware.camera.device@1.0_vendor
+    android.frameworks.displayservice@1.0_32 \
+    android.hardware.camera.provider@2.4-impl:32 \
+    android.hardware.camera.provider@2.4-service \
+    libxml2 
 
 # CNE
 PRODUCT_PACKAGES += \
